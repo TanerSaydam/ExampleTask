@@ -4,7 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExampleTask.Application;
-internal class Text
+namespace ExampleTask.Domain.Enums;
+public enum UserRole
 {
+    SysAdmin,
+    Admin,
+    Customer
 }
