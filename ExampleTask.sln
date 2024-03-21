@@ -5,9 +5,11 @@ VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleTask.Domain", "ExampleTask.Domain\ExampleTask.Domain.csproj", "{6FCC2C6E-6AE5-444F-A19F-F63BA5316C54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleTask.Application", "ExampleTask.Application\ExampleTask.Application.csproj", "{AAA4E0D3-668A-4BC0-BC28-C98D15F63CE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleTask.Application", "ExampleTask.Application\ExampleTask.Application.csproj", "{AAA4E0D3-668A-4BC0-BC28-C98D15F63CE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleTask.Infrastructure", "ExampleTask.Infrastructure\ExampleTask.Infrastructure.csproj", "{0CCDABDB-27A5-45DB-991B-134A4E59F832}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleTask.Infrastructure", "ExampleTask.Infrastructure\ExampleTask.Infrastructure.csproj", "{0CCDABDB-27A5-45DB-991B-134A4E59F832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleTask.WebAPI", "ExampleTask.WebAPI\ExampleTask.WebAPI.csproj", "{683964EB-F72A-4CCB-BF22-150DB11C9C1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{0CCDABDB-27A5-45DB-991B-134A4E59F832}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CCDABDB-27A5-45DB-991B-134A4E59F832}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CCDABDB-27A5-45DB-991B-134A4E59F832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{683964EB-F72A-4CCB-BF22-150DB11C9C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683964EB-F72A-4CCB-BF22-150DB11C9C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683964EB-F72A-4CCB-BF22-150DB11C9C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683964EB-F72A-4CCB-BF22-150DB11C9C1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
