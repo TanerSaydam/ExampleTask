@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleTask.Domain", "Examp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleTask.Application", "ExampleTask.Application\ExampleTask.Application.csproj", "{AAA4E0D3-668A-4BC0-BC28-C98D15F63CE6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleTask.Infrastructure", "ExampleTask.Infrastructure\ExampleTask.Infrastructure.csproj", "{0CCDABDB-27A5-45DB-991B-134A4E59F832}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AAA4E0D3-668A-4BC0-BC28-C98D15F63CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAA4E0D3-668A-4BC0-BC28-C98D15F63CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAA4E0D3-668A-4BC0-BC28-C98D15F63CE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CCDABDB-27A5-45DB-991B-134A4E59F832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CCDABDB-27A5-45DB-991B-134A4E59F832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CCDABDB-27A5-45DB-991B-134A4E59F832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CCDABDB-27A5-45DB-991B-134A4E59F832}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
